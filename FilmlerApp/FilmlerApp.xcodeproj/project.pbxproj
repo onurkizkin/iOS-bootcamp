@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7802E3642B409BFB00BBAF21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7802E3632B409BFB00BBAF21 /* AppDelegate.swift */; };
+		7802E3662B409BFB00BBAF21 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7802E3652B409BFB00BBAF21 /* SceneDelegate.swift */; };
+		7802E3682B409BFB00BBAF21 /* Anasayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7802E3672B409BFB00BBAF21 /* Anasayfa.swift */; };
+		7802E36B2B409BFB00BBAF21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7802E3692B409BFB00BBAF21 /* Main.storyboard */; };
+		7802E36D2B409BFC00BBAF21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7802E36C2B409BFC00BBAF21 /* Assets.xcassets */; };
+		7802E3702B409BFC00BBAF21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7802E36E2B409BFC00BBAF21 /* LaunchScreen.storyboard */; };
+		7802E37D2B409C8B00BBAF21 /* Filmler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7802E37C2B409C8B00BBAF21 /* Filmler.swift */; };
+		7802E37F2B409D1D00BBAF21 /* DetaySayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7802E37E2B409D1D00BBAF21 /* DetaySayfa.swift */; };
+		7802E3812B409E6C00BBAF21 /* FilmlerHucre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7802E3802B409E6C00BBAF21 /* FilmlerHucre.swift */; };
+		78AA85C62B45A3FE00BF5562 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 78AA85C52B45A3FE00BF5562 /* GoogleService-Info.plist */; };
+		78AA85C92B45A4A000BF5562 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 78AA85C82B45A4A000BF5562 /* FirebaseFirestore */; };
+		78AA85CB2B45A4A000BF5562 /* FirebaseInAppMessaging-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 78AA85CA2B45A4A000BF5562 /* FirebaseInAppMessaging-Beta */; };
+		78AA85CE2B45A57500BF5562 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 78AA85CD2B45A57500BF5562 /* Kingfisher */; };
+		78CCA2A02B43058D00804F6E /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 78CCA29F2B43058D00804F6E /* RxSwift */; };
+		78CCA2A32B4305B800804F6E /* FilmlerDaoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CCA2A22B4305B800804F6E /* FilmlerDaoRepository.swift */; };
+		78CCA2A62B4305EB00804F6E /* AnasayfaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CCA2A52B4305EB00804F6E /* AnasayfaViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7802E3602B409BFB00BBAF21 /* FilmlerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FilmlerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7802E3632B409BFB00BBAF21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7802E3652B409BFB00BBAF21 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7802E3672B409BFB00BBAF21 /* Anasayfa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anasayfa.swift; sourceTree = "<group>"; };
+		7802E36A2B409BFB00BBAF21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7802E36C2B409BFC00BBAF21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7802E36F2B409BFC00BBAF21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7802E3712B409BFC00BBAF21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7802E37C2B409C8B00BBAF21 /* Filmler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filmler.swift; sourceTree = "<group>"; };
+		7802E37E2B409D1D00BBAF21 /* DetaySayfa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetaySayfa.swift; sourceTree = "<group>"; };
+		7802E3802B409E6C00BBAF21 /* FilmlerHucre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmlerHucre.swift; sourceTree = "<group>"; };
+		78AA85C52B45A3FE00BF5562 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		78CCA2A22B4305B800804F6E /* FilmlerDaoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmlerDaoRepository.swift; sourceTree = "<group>"; };
+		78CCA2A52B4305EB00804F6E /* AnasayfaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7802E35D2B409BFB00BBAF21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78AA85CE2B45A57500BF5562 /* Kingfisher in Frameworks */,
+				78CCA2A02B43058D00804F6E /* RxSwift in Frameworks */,
+				78AA85C92B45A4A000BF5562 /* FirebaseFirestore in Frameworks */,
+				78AA85CB2B45A4A000BF5562 /* FirebaseInAppMessaging-Beta in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7802E3572B409BFB00BBAF21 = {
+			isa = PBXGroup;
+			children = (
+				7802E3622B409BFB00BBAF21 /* FilmlerApp */,
+				7802E3612B409BFB00BBAF21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7802E3612B409BFB00BBAF21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7802E3602B409BFB00BBAF21 /* FilmlerApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7802E3622B409BFB00BBAF21 /* FilmlerApp */ = {
+			isa = PBXGroup;
+			children = (
+				7802E3632B409BFB00BBAF21 /* AppDelegate.swift */,
+				7802E3652B409BFB00BBAF21 /* SceneDelegate.swift */,
+				7802E3782B409C3300BBAF21 /* ui */,
+				7802E3772B409C2400BBAF21 /* data */,
+				7802E3692B409BFB00BBAF21 /* Main.storyboard */,
+				7802E36C2B409BFC00BBAF21 /* Assets.xcassets */,
+				7802E36E2B409BFC00BBAF21 /* LaunchScreen.storyboard */,
+				7802E3712B409BFC00BBAF21 /* Info.plist */,
+				78AA85C52B45A3FE00BF5562 /* GoogleService-Info.plist */,
+			);
+			path = FilmlerApp;
+			sourceTree = "<group>";
+		};
+		7802E3772B409C2400BBAF21 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				78CCA2A12B4305A000804F6E /* repo */,
+				7802E37A2B409C4900BBAF21 /* entity */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		7802E3782B409C3300BBAF21 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				78CCA2A42B4305D400804F6E /* viewmodel */,
+				7802E37B2B409C5700BBAF21 /* tableview */,
+				7802E3792B409C3E00BBAF21 /* views */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		7802E3792B409C3E00BBAF21 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				7802E3672B409BFB00BBAF21 /* Anasayfa.swift */,
+				7802E37E2B409D1D00BBAF21 /* DetaySayfa.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		7802E37A2B409C4900BBAF21 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				7802E37C2B409C8B00BBAF21 /* Filmler.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		7802E37B2B409C5700BBAF21 /* tableview */ = {
+			isa = PBXGroup;
+			children = (
+				7802E3802B409E6C00BBAF21 /* FilmlerHucre.swift */,
+			);
+			path = tableview;
+			sourceTree = "<group>";
+		};
+		78CCA2A12B4305A000804F6E /* repo */ = {
+			isa = PBXGroup;
+			children = (
+				78CCA2A22B4305B800804F6E /* FilmlerDaoRepository.swift */,
+			);
+			path = repo;
+			sourceTree = "<group>";
+		};
+		78CCA2A42B4305D400804F6E /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				78CCA2A52B4305EB00804F6E /* AnasayfaViewModel.swift */,
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7802E35F2B409BFB00BBAF21 /* FilmlerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7802E3742B409BFC00BBAF21 /* Build configuration list for PBXNativeTarget "FilmlerApp" */;
+			buildPhases = (
+				7802E35C2B409BFB00BBAF21 /* Sources */,
+				7802E35D2B409BFB00BBAF21 /* Frameworks */,
+				7802E35E2B409BFB00BBAF21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FilmlerApp;
+			packageProductDependencies = (
+				78CCA29F2B43058D00804F6E /* RxSwift */,
+				78AA85C82B45A4A000BF5562 /* FirebaseFirestore */,
+				78AA85CA2B45A4A000BF5562 /* FirebaseInAppMessaging-Beta */,
+				78AA85CD2B45A57500BF5562 /* Kingfisher */,
+			);
+			productName = FilmlerApp;
+			productReference = 7802E3602B409BFB00BBAF21 /* FilmlerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7802E3582B409BFB00BBAF21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					7802E35F2B409BFB00BBAF21 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = 7802E35B2B409BFB00BBAF21 /* Build configuration list for PBXProject "FilmlerApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7802E3572B409BFB00BBAF21;
+			packageReferences = (
+				78CCA29E2B43058D00804F6E /* XCRemoteSwiftPackageReference "RxSwift" */,
+				78AA85C72B45A4A000BF5562 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				78AA85CC2B45A57500BF5562 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = 7802E3612B409BFB00BBAF21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7802E35F2B409BFB00BBAF21 /* FilmlerApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7802E35E2B409BFB00BBAF21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7802E3702B409BFC00BBAF21 /* LaunchScreen.storyboard in Resources */,
+				78AA85C62B45A3FE00BF5562 /* GoogleService-Info.plist in Resources */,
+				7802E36D2B409BFC00BBAF21 /* Assets.xcassets in Resources */,
+				7802E36B2B409BFB00BBAF21 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7802E35C2B409BFB00BBAF21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7802E3682B409BFB00BBAF21 /* Anasayfa.swift in Sources */,
+				7802E3642B409BFB00BBAF21 /* AppDelegate.swift in Sources */,
+				78CCA2A62B4305EB00804F6E /* AnasayfaViewModel.swift in Sources */,
+				7802E3662B409BFB00BBAF21 /* SceneDelegate.swift in Sources */,
+				7802E37F2B409D1D00BBAF21 /* DetaySayfa.swift in Sources */,
+				7802E37D2B409C8B00BBAF21 /* Filmler.swift in Sources */,
+				7802E3812B409E6C00BBAF21 /* FilmlerHucre.swift in Sources */,
+				78CCA2A32B4305B800804F6E /* FilmlerDaoRepository.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7802E3692B409BFB00BBAF21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7802E36A2B409BFB00BBAF21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7802E36E2B409BFC00BBAF21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7802E36F2B409BFC00BBAF21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7802E3722B409BFC00BBAF21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7802E3732B409BFC00BBAF21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7802E3752B409BFC00BBAF21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M8XX5Z9U82;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FilmlerApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.onurkizkin.FilmlerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7802E3762B409BFC00BBAF21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M8XX5Z9U82;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FilmlerApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.onurkizkin.FilmlerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7802E35B2B409BFB00BBAF21 /* Build configuration list for PBXProject "FilmlerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7802E3722B409BFC00BBAF21 /* Debug */,
+				7802E3732B409BFC00BBAF21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7802E3742B409BFC00BBAF21 /* Build configuration list for PBXNativeTarget "FilmlerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7802E3752B409BFC00BBAF21 /* Debug */,
+				7802E3762B409BFC00BBAF21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		78AA85C72B45A4A000BF5562 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.19.1;
+			};
+		};
+		78AA85CC2B45A57500BF5562 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.10.1;
+			};
+		};
+		78CCA29E2B43058D00804F6E /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		78AA85C82B45A4A000BF5562 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78AA85C72B45A4A000BF5562 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		78AA85CA2B45A4A000BF5562 /* FirebaseInAppMessaging-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78AA85C72B45A4A000BF5562 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessaging-Beta";
+		};
+		78AA85CD2B45A57500BF5562 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78AA85CC2B45A57500BF5562 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		78CCA29F2B43058D00804F6E /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78CCA29E2B43058D00804F6E /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7802E3582B409BFB00BBAF21 /* Project object */;
+}

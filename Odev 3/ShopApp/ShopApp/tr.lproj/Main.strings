@@ -1,0 +1,87 @@
+
+/* Class = "UILabel"; text = "Macbook Pro"; ObjectID = "217-Aa-HTR"; */
+"217-Aa-HTR.text" = "Macbook Pro";
+
+/* Class = "UIButton"; configuration.title = "512 GB"; ObjectID = "38A-jQ-Cnn"; */
+"38A-jQ-Cnn.configuration.title" = "512 GB";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "38A-jQ-Cnn"; */
+"38A-jQ-Cnn.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Sıradaki Ürün"; ObjectID = "4d4-UI-ffo"; */
+"4d4-UI-ffo.configuration.title" = "Sıradaki Ürün";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "4d4-UI-ffo"; */
+"4d4-UI-ffo.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "$ 499"; ObjectID = "6RY-jc-nB0"; */
+"6RY-jc-nB0.text" = "25000 ₺";
+
+/* Class = "UIButton"; configuration.title = "128 GB"; ObjectID = "6vf-pB-1Kf"; */
+"6vf-pB-1Kf.configuration.title" = "128 GB";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "6vf-pB-1Kf"; */
+"6vf-pB-1Kf.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "256 GB"; ObjectID = "7Cv-b1-xGP"; */
+"7Cv-b1-xGP.configuration.title" = "256 GB";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "7Cv-b1-xGP"; */
+"7Cv-b1-xGP.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Get ready to reach your dream phone!"; ObjectID = "9m5-MA-Ier"; */
+"9m5-MA-Ier.text" = "Hayalindeki telefona ulaşmaya hazır ol!";
+
+/* Class = "UIBarButtonItem"; title = "Macbook"; ObjectID = "BCl-fs-sPm"; */
+"BCl-fs-sPm.title" = "Macbook";
+
+/* Class = "UILabel"; text = "Iphone 15"; ObjectID = "BFb-BZ-Xpm"; */
+"BFb-BZ-Xpm.text" = "Iphone 15";
+
+/* Class = "UIButton"; configuration.title = "ADD TO CART"; ObjectID = "IX5-3Z-ZZH"; */
+"IX5-3Z-ZZH.configuration.title" = "SEPETE EKLE";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "IX5-3Z-ZZH"; */
+"IX5-3Z-ZZH.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Ships within 1 day !"; ObjectID = "Iox-4R-H5S"; */
+"Iox-4R-H5S.text" = "1 gün içerisinde kargoda !";
+
+/* Class = "UIButton"; configuration.title = "Sıradaki Ürün"; ObjectID = "JSd-q8-hYL"; */
+"JSd-q8-hYL.configuration.title" = "Sıradaki Ürün";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "JSd-q8-hYL"; */
+"JSd-q8-hYL.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Get ready to reach your dream computer!"; ObjectID = "hdf-74-WJy"; */
+"hdf-74-WJy.text" = "Hayalindeki bilgisayara ulaşmaya hazır ol!";
+
+/* Class = "UIButton"; configuration.title = "32 GB"; ObjectID = "m2F-xn-Bmn"; */
+"m2F-xn-Bmn.configuration.title" = "32 GB";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "m2F-xn-Bmn"; */
+"m2F-xn-Bmn.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "16 GB"; ObjectID = "oGH-pc-cxB"; */
+"oGH-pc-cxB.configuration.title" = "16 GB";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "oGH-pc-cxB"; */
+"oGH-pc-cxB.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Ships within 1 day !"; ObjectID = "psA-2y-14c"; */
+"psA-2y-14c.text" = "1 gün içerisinde kargoda !";
+
+/* Class = "UIButton"; configuration.title = "8 GB"; ObjectID = "q8s-BW-C3z"; */
+"q8s-BW-C3z.configuration.title" = "8 GB";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "q8s-BW-C3z"; */
+"q8s-BW-C3z.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "$ 999"; ObjectID = "r0H-pL-Ft3"; */
+"r0H-pL-Ft3.text" = "45000 ₺";
+
+/* Class = "UIButton"; configuration.title = "ADD TO CART"; ObjectID = "ybP-Nz-RVd"; */
+"ybP-Nz-RVd.configuration.title" = "SEPETE EKLE";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ybP-Nz-RVd"; */
+"ybP-Nz-RVd.normalTitle" = "Button";
